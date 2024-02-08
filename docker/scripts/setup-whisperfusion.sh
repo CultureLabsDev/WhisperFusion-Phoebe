@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 ## Clone this repo and install requirements
-[ -d "WhisperFusion" ] || git clone https://github.com/collabora/WhisperFusion.git
+[ -d "WhisperFusion" ] || git clone -b gpt-backend https://github.com/DamianB-BitFlipper/WhisperFusion.git
 
 cd WhisperFusion
 apt update
