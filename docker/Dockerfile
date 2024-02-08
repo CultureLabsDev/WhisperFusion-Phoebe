@@ -1,4 +1,4 @@
-FROM ghcr.io/collabora/whisperfusion-base:latest as base
+FROM us-central1-docker.pkg.dev/peppy-avatar-393909/whisperfusion-gpt/whisperfusion-base:latest as base
 
 WORKDIR /root
 COPY scripts/setup-whisperfusion.sh scripts/run-whisperfusion.sh scratch-space/models /root/
