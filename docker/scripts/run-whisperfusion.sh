@@ -2,7 +2,7 @@
 
 test -f /etc/shinit_v2 && source /etc/shinit_v2
 
-cd WhisperFusion
+cd WhisperFusion-Phoebe
 if [ "$1" != "phi" ]; then
   exec python3 main.py --gpt \
                   --whisper_tensorrt_path /root/whisper_small_en
