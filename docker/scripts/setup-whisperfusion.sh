@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
 ## Clone this repo and install requirements
-[ -d "WhisperFusion" ] || git clone https://github.com/collabora/WhisperFusion.git
+[ -d "WhisperFusion-Phoebe" ] || git clone -b phoebe https://github.com/CultureLabsDev/WhisperFusion-Phoebe.git
 
-cd WhisperFusion
+cd WhisperFusion-Phoebe
 apt update
 apt install ffmpeg portaudio19-dev -y
 
